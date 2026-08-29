@@ -161,6 +161,10 @@ def scan_fotolog_images(auto_convert: bool = True):
     seen_stems = set()
 
     for file_path in found_files:
+        if file_path.suffix.lower() in CONVERTIBLE_EXTENSIONS:
+            rel_path = os.path.relpath(file_path, PROJECT_DIR).replace("\\", "/")
+            add_to_gitignore(rel_path)
+
         webp_candidate = file_path.parent / f"{normalize_filename(file_path.name).rsplit('.', 1)[0]}.webp"
         
         if auto_convert and file_path.suffix.lower() in CONVERTIBLE_EXTENSIONS:
