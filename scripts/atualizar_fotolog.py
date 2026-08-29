@@ -70,6 +70,13 @@ def normalize_filename(filename: str) -> str:
     return f"{name}{ext.lower()}"
 
 
+def format_title_from_filename(filename: str) -> str:
+    """Gera um título / texto alternativo amigável a partir do nome do arquivo."""
+    name_no_ext = os.path.splitext(filename)[0]
+    cleaned = re.sub(r'[_-]+', ' ', name_no_ext).strip()
+    return cleaned.capitalize() if cleaned else "Foto"
+
+
 def add_to_gitignore(rel_path: str):
     """Adiciona o caminho relativo de uma imagem original ao .gitignore se ainda não estiver."""
     try:
@@ -135,13 +142,6 @@ def convert_image_to_webp(file_path: Path) -> Path:
     except Exception as e:
         print(f"  [AVISO] Nao foi possivel converter {file_path.name} para WebP: {e}")
         return file_path
-
-
-def format_title_from_filename(filename: str) -> str:
-    """Gera um texto alternativo / titulo amigavel a partir do nome do arquivo."""
-    name_no_ext = os.path.splitext(filename)[0]
-    cleaned = re.sub(r'[_-]+', ' ', name_no_ext).strip()
-    return cleaned.capitalize() if cleaned else "Foto do Fotolog"
 
 
 def scan_fotolog_images(auto_convert: bool = True):
@@ -234,7 +234,7 @@ def sync_posts_for_rss(images: list):
             continue
 
         src = img["src"]
-        alt = img["alt"]
+        alt = img.get("alt", "Foto")
         stem = img.get("stem", "foto")
         mtime = img.get("mtime", None)
 
@@ -256,7 +256,7 @@ def sync_posts_for_rss(images: list):
                 break
 
         if not already_exists and not post_path.exists():
-            post_title = f"Foto: {alt}"
+            post_title = f"Foto: {alt}" if not alt.lower().startswith("foto") else alt
             post_content = f"""---
 title: "{post_title}"
 date: {date_str}

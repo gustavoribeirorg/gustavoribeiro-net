@@ -21,7 +21,7 @@
               <a
                 href="#foto-{{ forloop.index }}"
                 class="fotolog-thumb-link"
-                aria-label="Abrir foto {{ forloop.index }}: {{ img.alt | default: 'Foto do Fotolog' }}"
+                aria-label="Abrir foto {{ forloop.index }}: {{ img.alt | default: 'Foto' }}"
               >
                 <img
                   src="{{ img.src | relative_url }}"
@@ -48,7 +48,7 @@
             {% assign next_num = current_num | plus: 1 %}
           {% endif %}
 
-          <div id="foto-{{ current_num }}" class="fotolog-lightbox" aria-label="Visualizador de foto {{ current_num }}">
+          <div id="foto-{{ current_num }}" class="fotolog-lightbox" aria-label="{{ img.alt | default: 'Foto' }}">
             <!-- Fundo clicável para fechar -->
             <a href="#_" class="lightbox-backdrop" aria-label="Fechar visualizador"></a>
 
@@ -68,7 +68,7 @@
               />
 
               <div class="lightbox-footer">
-                <span class="lightbox-caption">{{ img.alt | default: 'Foto do Fotolog' }}</span>
+                <span class="lightbox-caption">{{ img.alt | default: 'Foto' }}</span>
                 <span class="lightbox-counter">{{ current_num }} / {{ total_images }}</span>
               </div>
             </div>
