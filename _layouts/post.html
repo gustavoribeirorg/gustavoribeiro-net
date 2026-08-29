@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+{% include head.html %}
+
+<body>
+  <div class="site-layout">
+    {% include sidebar.html %}
+
+    <div class="main-content">
+      <main>
+        <article class="post-single">
+          
+          <h1>{{ page.title }}</h1>
+          <time>
+            {% assign m = page.date | date: "%-m" %}
+            {{ page.date | date: "%d" }}
+            {% case m %}
+            {% when '1' %}de janeiro de
+            {% when '2' %}de fevereiro de
+            {% when '3' %}de março de
+            {% when '4' %}de abril de
+            {% when '5' %}de maio de
+            {% when '6' %}de junho de
+            {% when '7' %}de julho de
+            {% when '8' %}de agosto de
+            {% when '9' %}de setembro de
+            {% when '10' %}de outubro de
+            {% when '11' %}de novembro de
+            {% when '12' %}de dezembro de
+            {% endcase %}
+            {{ page.date | date: "%Y" }}
+          </time>
+
+          {{ page.content }}
+
+          {% if page.tags and page.tags.size > 0 %}
+          <footer class="post-footer-tags">
+            <span class="tags-label">Tags:</span>
+            <div class="tags-list">
+              {% for tag in page.tags %}
+                <span class="tag-pill">#{{ tag }}</span>
+              {% endfor %}
+            </div>
+          </footer>
+          {% endif %}
+
+        </article>
+      </main>
+
+      {% include footer.html %}
+    </div>
+  </div>
+</body>
+
+</html>

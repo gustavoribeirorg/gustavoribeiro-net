@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt">
+  {% include head.html %}
+
+  <body>
+    <div class="site-layout">
+      {% include sidebar.html %}
+
+      <div class="main-content">
+        <main>
+          <article class="blog-posts-list">
+            {{ content }}
+
+            {% if page.category_name %}
+              {% assign current_posts = site.categories[page.category_name] %}
+            {% else %}
+              {% assign current_posts = site.posts %}
+            {% endif %}
+
+            {% for post in current_posts %}
+              <div class="post-item">
+                <h1>
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h1>
+                <time>
+                  {% assign m = post.date | date: "%-m" %} {{ post.date | date: "%d" }}
+                  {% case m %}
+                    {% when '1' %}de janeiro de
+                    {% when '2' %}de fevereiro de
+                    {% when '3' %}de março de
+                    {% when '4' %}de abril de
+                    {% when '5' %}de maio de
+                    {% when '6' %}de junho de
+                    {% when '7' %}de julho de
+                    {% when '8' %}de agosto de
+                    {% when '9' %}de setembro de
+                    {% when '10' %}de outubro de
+                    {% when '11' %}de novembro de
+                    {% when '12' %}de dezembro de
+                  {% endcase %}
+                  {{ post.date | date: "%Y" }}
+                </time>
+
+                {{ post.excerpt }}
+              </div>
+            {% endfor %}
+          </article>
+        </main>
+
+        {% include footer_index.html %}
+      </div>
+    </div>
+  </body>
+</html>

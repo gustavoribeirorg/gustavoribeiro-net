@@ -1,0 +1,37 @@
+<aside class="site-sidebar">
+  <nav class="sidebar-nav">
+    <a href="{{ '/' | relative_url }}" class="sidebar-back">&larr; Início</a>
+    
+    <div class="sidebar-categories">
+      <span class="sidebar-title">Categorias</span>
+      <ul class="category-list">
+        {% assign is_all_active = false %}
+        {% if page.url == '/blog/' or page.url == '/blog/index.html' %}
+          {% unless page.category_name %}
+            {% assign is_all_active = true %}
+          {% endunless %}
+        {% endif %}
+        <li>
+          <a href="{{ '/blog/' | relative_url }}" class="category-link {% if is_all_active %}active{% endif %}">Todas</a>
+        </li>
+        {% assign cat_items = "Jornalismo:Jornalismo,Cotidiano:Cotidiano,Citacoes:Citações" | split: "," %}
+        {% for item in cat_items %}
+          {% assign parts = item | split: ":" %}
+          {% assign cat_key = parts[0] %}
+          {% assign cat_label = parts[1] %}
+          {% assign slug = cat_key | slugify %}
+          {% assign cat_url = '/blog/' | append: slug | append: '/' %}
+          {% assign is_active = false %}
+          {% if page.category_name == cat_key %}
+            {% assign is_active = true %}
+          {% elsif page.categories contains cat_key %}
+            {% assign is_active = true %}
+          {% endif %}
+          <li>
+            <a href="{{ cat_url | relative_url }}" class="category-link {% if is_active %}active{% endif %}">{{ cat_label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</aside>

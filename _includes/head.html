@@ -1,0 +1,40 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' https://pcdomanual.com https://notbyai.fyi; script-src 'self' https://cloud.umami.is; connect-src 'self' https://cloud.umami.is https://gateway.umami.is"
+  />
+
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | strip_html | strip_newlines | escape }}" />
+  {% else %}
+    <meta name="description" content="{{ site.description | strip_html | strip_newlines | escape }}" />
+  {% endif %}
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/style.css' | prepend: site.baseurl }}"
+  />
+
+  <link
+    rel="icon"
+    href="{{ '/assets/favicon.svg' | prepend: site.baseurl }}"
+    type="image/svg+xml"
+  />
+  <link
+    rel="icon"
+    href="{{ '/assets/favicon.ico' | prepend: site.baseurl }}"
+    sizes="32x32"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="{{ '/assets/apple-touch-icon-180x180.webp' | prepend: site.baseurl }}"
+  />
+  <script
+    defer
+    src="https://cloud.umami.is/script.js"
+    data-website-id="9492fb5b-a1e6-4c86-bde7-2389cee2a6a5"
+  ></script>
+</head>

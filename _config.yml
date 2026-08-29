@@ -1,0 +1,30 @@
+title: Gustavo Ribeiro
+description: O jardim digital de Gustavo Ribeiro
+url: "https://gustavoribeiro.net"
+baseurl: ""
+author: Gustavo Ribeiro
+
+markdown: kramdown
+
+paginate_path: "/blog/page:num"
+
+pagination: 
+  enabled: true
+  sort_reverse: true
+  
+timezone: America/Sao_Paulo
+future: false
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - vendor
+  - node_modules
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: /blog/rss.xml
+  icon: /assets/apple-touch-icon-180x180.webp

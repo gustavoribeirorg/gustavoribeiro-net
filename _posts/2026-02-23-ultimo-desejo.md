@@ -1,0 +1,43 @@
+---
+title: Último Desejo
+date: 2026-02-23 17:46:09
+layout: post
+excerpt_separator: <!--more-->
+categories: [Citacoes]
+tags: [poesia, citacao]
+---
+
+> Nosso amor que eu não esqueço  
+> E que teve o seu começo  
+> Numa festa de São João
+
+<!--more-->
+
+> Morre hoje sem foguete  
+> Sem retrato e sem bilhete  
+> Sem luar, sem violão
+>
+> Perto de você me calo  
+> Tudo penso e nada falo  
+> Tenho medo de chorar
+>
+> Nunca mais quero o seu beijo  
+> Mas meu último desejo  
+> Você não pode negar
+>
+> Se alguma pessoa amiga  
+> Pedir que você lhe diga  
+> Se você me quer ou não  
+> Diga que você me adora  
+> Que você lamenta e chora  
+> A nossa separação
+>
+> Às pessoas que eu detesto  
+> Diga sempre que eu não presto  
+> Que meu lar é o botequim  
+> Que eu arruinei sua vida  
+> Que eu não mereço a comida  
+> Que você pagou pra mim
+>
+> — Noel Rosa
+> {: .autor}
