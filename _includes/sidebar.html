@@ -14,7 +14,7 @@
         <li>
           <a href="{{ '/blog/' | relative_url }}" class="category-link {% if is_all_active %}active{% endif %}">Todas</a>
         </li>
-        {% assign cat_items = "Jornalismo:Jornalismo,Cotidiano:Cotidiano,Citacoes:Citações" | split: "," %}
+        {% assign cat_items = "Jornalismo:Jornalismo,Cotidiano:Cotidiano,Citacoes:Citações,Fotolog:Fotolog" | split: "," %}
         {% for item in cat_items %}
           {% assign parts = item | split: ":" %}
           {% assign cat_key = parts[0] %}

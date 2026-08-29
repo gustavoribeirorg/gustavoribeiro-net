@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt">
+  {% include head.html %}
+
+  <body class="fotolog-page">
+    <header class="fotolog-header">
+      <nav class="fotolog-nav">
+        <a href="{{ '/' | relative_url }}">&larr; Início</a>
+      </nav>
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <main>
+      {{ content }}
+
+      {% if page.images and page.images.size > 0 %}
+        <!-- Grade de Fotos em Mosaico -->
+        <div class="fotolog-grid">
+          {% for img in page.images %}
+            <div class="fotolog-item">
+              <a
+                href="#foto-{{ forloop.index }}"
+                class="fotolog-thumb-link"
+                aria-label="Abrir foto {{ forloop.index }}: {{ img.alt | default: 'Foto do Fotolog' }}"
+              >
+                <img
+                  src="{{ img.src | relative_url }}"
+                  alt="{{ img.alt | default: 'Foto' }}"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+
+        <!-- Visualizadores Lightbox em Puro CSS (sem JavaScript) -->
+        {% assign total_images = page.images.size %}
+        {% for img in page.images %}
+          {% assign current_num = forloop.index %}
+          {% if forloop.first %}
+            {% assign prev_num = total_images %}
+          {% else %}
+            {% assign prev_num = current_num | minus: 1 %}
+          {% endif %}
+          {% if forloop.last %}
+            {% assign next_num = 1 %}
+          {% else %}
+            {% assign next_num = current_num | plus: 1 %}
+          {% endif %}
+
+          <div id="foto-{{ current_num }}" class="fotolog-lightbox" aria-label="Visualizador de foto {{ current_num }}">
+            <!-- Fundo clicável para fechar -->
+            <a href="#_" class="lightbox-backdrop" aria-label="Fechar visualizador"></a>
+
+            <div class="lightbox-content">
+              <!-- Botão Fechar -->
+              <a href="#_" class="lightbox-btn lightbox-close" aria-label="Fechar">&times;</a>
+
+              <!-- Botões de Navegação Anterior / Próxima -->
+              {% if total_images > 1 %}
+                <a href="#foto-{{ prev_num }}" class="lightbox-btn lightbox-prev" aria-label="Foto anterior">&#10094;</a>
+                <a href="#foto-{{ next_num }}" class="lightbox-btn lightbox-next" aria-label="Próxima foto">&#10095;</a>
+              {% endif %}
+
+              <img
+                src="{{ img.src | relative_url }}"
+                alt="{{ img.alt | default: 'Foto' }}"
+              />
+
+              <div class="lightbox-footer">
+                <span class="lightbox-caption">{{ img.alt | default: 'Foto do Fotolog' }}</span>
+                <span class="lightbox-counter">{{ current_num }} / {{ total_images }}</span>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
+      {% else %}
+        <div class="fotolog-empty">
+          <p>Nenhuma foto adicionada ainda.</p>
+        </div>
+      {% endif %}
+    </main>
+
+    {% include footer_index.html %}
+  </body>
+</html>
