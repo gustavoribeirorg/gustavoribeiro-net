@@ -11,6 +11,7 @@ _site/
 /vendor/bundle/
 /vendor/bundle/**/*
 Gemfile.lock
+.jekyll_writer_cache.json
 
 # Portfolio and original assets
 _layouts/portfolio.html
@@ -149,3 +150,15 @@ assets/imagens/IMG_7130.jpg
 assets/imagens/IMG_7154.jpg
 assets/imagens/IMG_7157.jpg
 assets/fotolog/beija_flor_na_cozinha.jpg
+
+# Imagens originais auto-geradas
+assets/imagens/20260128_123123293_ios.jpg
+
+# Imagens originais auto-geradas
+assets/imagens/20260107_143400000_ios.jpg
+
+# Imagens originais auto-geradas
+assets/imagens/20260130_152524000_ios.png
+
+# Imagens originais auto-geradas
+assets/imagens/20260129_193252000_ios.jpg

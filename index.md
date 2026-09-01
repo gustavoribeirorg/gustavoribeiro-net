@@ -6,4 +6,4 @@ title: Início
 
 Meu nome é Gustavo Ribeiro e este é o meu jardim digital.
 
-Acesse meu [blog](blog/) ou veja meu [fotolog](fotolog/).
+Acesse meu [blog](blog/).
