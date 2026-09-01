@@ -20,7 +20,7 @@ um lugar pra andar e chamar de seu. No Dia do Trabalhador, primeiro de
 maio, nascia a BSS.
 
 <figure>
-<img src="/assets/imagens/IMG_7118.webp" alt="Pintura da curb curva">
+<img src="{{ '/assets/imagens/IMG_7118.webp' | relative_url }}" alt="Pintura da curb curva">
 <figcaption>
     Pintura da curb curva
 </figcaption>
@@ -37,7 +37,7 @@ oportunidade para levantar uma pista. Afinal, quem nunca sonhou com a
 própria pista de skate no quintal de casa?
 
 <figure>
-<img src="/assets/imagens/IMG_7121.webp" alt="Cebola">
+<img src="{{ '/assets/imagens/IMG_7121.webp' | relative_url }}" alt="Cebola">
 <figcaption>
     Cebola
 </figcaption>
@@ -54,7 +54,7 @@ Por conta do receio do presidente da associação de moradores, os
 obstáculos eram móveis e feitos em madeira.
 
 <figure>
-<img src="/assets/imagens/IMG_7130.webp" alt="Cebola">
+<img src="{{ '/assets/imagens/IMG_7130.webp' | relative_url }}" alt="Cebola">
 <figcaption>
     Cebola
 </figcaption>
@@ -82,7 +82,7 @@ construções. E os prêmios vem dos próprios amigos e frequentadores,
 sendo tatuagens, shapes etc.
 
 <figure>
-<img src="/assets/imagens/IMG_7127.webp" alt="Ulisses">
+<img src="{{ '/assets/imagens/IMG_7127.webp' | relative_url }}" alt="Ulisses">
 <figcaption>
     Ulisses
 </figcaption>

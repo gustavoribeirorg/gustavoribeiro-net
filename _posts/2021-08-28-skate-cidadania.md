@@ -24,7 +24,7 @@ quando o Sandro "Testinha" convidou Alves, para uma apresentação do
 Skate Social, projeto do Testinha, na antiga FEBEM.
 
 <figure>
-<img src="/assets/imagens/237279313_240791584713027_6297416348602405722_n.webp" alt="Lucas Alves no centro">
+<img src="{{ '/assets/imagens/237279313_240791584713027_6297416348602405722_n.webp' | relative_url }}" alt="Lucas Alves no centro">
 <figcaption>
     Lucas Alves no centro
 </figcaption>
@@ -56,7 +56,7 @@ Unidos com diversos produtos para o projeto aguarda liberação da Receita
 Federal.
 
 <figure>
-<img src="/assets/imagens/242597133_1216444598782155_8865703001061454127_n.webp" alt="Turma da RSP">
+<img src="{{ '/assets/imagens/242597133_1216444598782155_8865703001061454127_n.webp' | relative_url }}" alt="Turma da RSP">
 <figcaption>
     Turma da RSP
 </figcaption>

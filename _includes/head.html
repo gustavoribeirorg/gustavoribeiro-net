@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     http-equiv="Content-Security-Policy"
-    content="default-src 'self'; img-src 'self' https://pcdomanual.com https://notbyai.fyi https://placehold.co; script-src 'self' https://cloud.umami.is; connect-src 'self' https://cloud.umami.is https://gateway.umami.is"
+    content="default-src 'self'; img-src 'self' https://pcdomanual.com https://notbyai.fyi; script-src 'self' https://cloud.umami.is; connect-src 'self' https://cloud.umami.is https://gateway.umami.is;"
   />
 
   <title>{{ page.title }} - {{ site.title }}</title>
@@ -15,22 +15,22 @@
 
   <link
     rel="stylesheet"
-    href="{{ '/assets/style.css' | prepend: site.baseurl }}"
+    href="{{ '/assets/style.css' | relative_url }}"
   />
 
   <link
     rel="icon"
-    href="{{ '/assets/favicon.svg' | prepend: site.baseurl }}"
+    href="{{ '/assets/favicon.svg' | relative_url }}"
     type="image/svg+xml"
   />
   <link
     rel="icon"
-    href="{{ '/assets/favicon.ico' | prepend: site.baseurl }}"
+    href="{{ '/assets/favicon.ico' | relative_url }}"
     sizes="32x32"
   />
   <link
     rel="apple-touch-icon"
-    href="{{ '/assets/apple-touch-icon-180x180.webp' | prepend: site.baseurl }}"
+    href="{{ '/assets/apple-touch-icon-180x180.webp' | relative_url }}"
   />
   <script
     defer

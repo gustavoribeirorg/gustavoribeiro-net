@@ -14,7 +14,7 @@ A empresa em que eu trabalho implementou um lixo eletrônico no ano passado. Mui
 Minha ex-chefe levou um Ipad, um Iphone e um netbook. Antes mesmo que ela pudesse jogar no lixo, eu pedi os equipamentos e perguntei se eu poderia ficar com eles.
 
 <figure>
-<img src="/assets/imagens/writerdeck.webp" alt="O meu writerdeck">
+<img src="{{ '/assets/imagens/writerdeck.webp' | relative_url }}" alt="O meu writerdeck">
 <figcaption>O meu writerdeck</figcaption>
 </figure>
 

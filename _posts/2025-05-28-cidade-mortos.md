@@ -71,14 +71,14 @@ com os restos mortais de senhora que estava sepultada no cemitério da 7
 de Setembro.
 
 <figure>
-<img src="/assets/imagens/IMG_1845.webp">
+<img src="{{ '/assets/imagens/IMG_1845.' | relative_url }}">
 <figcaption>
     Primeiro jazigo
 </figcaption>
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1846.webp">
+<img src="{{ '/assets/imagens/IMG_1846.' | relative_url }}">
 <figcaption>
     Cidadão da região que foi combatente na 2a Guerra Mundial, em
     1944
@@ -86,7 +86,7 @@ de Setembro.
 </figure>
 
 <figure>
-<img src="/assets/imagens/VERT_IMG_1847.webp">
+<img src="{{ '/assets/imagens/VERT_IMG_1847.' | relative_url }}">
 <figcaption>
     Mulher chorando é a figura da desolação. Antigamente tinham as
     carpideiras, mulheres que eram contratadas para chorar nos
@@ -95,7 +95,7 @@ de Setembro.
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1848.webp">
+<img src="{{ '/assets/imagens/IMG_1848.' | relative_url }}">
 <figcaption>
     Ossuário de Euclydes de Araújo Senna, El Principe Negro. Saxofonista
     da jazz band Bico Doce. Tocou com Pixinguinha e fez muito sucesso pela
@@ -104,7 +104,7 @@ de Setembro.
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1850.webp">
+<img src="{{ '/assets/imagens/IMG_1850.' | relative_url }}">
 <figcaption>
     Lápide de Carlo Barbieri, escultor funerário que trouxe o ofício da
     Itália para Ribeirão.
@@ -112,18 +112,18 @@ de Setembro.
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1851.webp"
+<img src="{{ '/assets/imagens/IMG_1851.' | relative_url }}"
 alt="Mausoléu da Loja Maçônica Estrêlla D&#39;Oeste, instituição civel mais antiga da cidade, fundada em 1885" />
-<img src="/assets/imagens/IMG_1852.webp"
+<img src="{{ '/assets/imagens/IMG_1852.' | relative_url }}"
 alt="Mausoléu da Loja Maçônica Estrêlla D&#39;Oeste, instituição civel mais antiga da cidade, fundada em 1885" />
-<img src="/assets/imagens/IMG_1854.webp"
+<img src="{{ '/assets/imagens/IMG_1854.' | relative_url }}"
 alt="Mausoléu da Loja Maçônica Estrêlla D&#39;Oeste, instituição civel mais antiga da cidade, fundada em 1885" />
 <figcaption>Mausoléu da Loja Maçônica Estrêlla D'Oeste, instituição
 civel mais antiga da cidade, fundada em 1885.</figcaption>
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1857.webp">
+<img src="{{ '/assets/imagens/IMG_1857.' | relative_url }}">
 <figcaption>
     Obelisco da Sociedade Dante Alighieri em homenagem aos italianos de
     Ribeirão que lutaram na Primeira Guerra
@@ -132,7 +132,7 @@ civel mais antiga da cidade, fundada em 1885.</figcaption>
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1858.webp">
+<img src="{{ '/assets/imagens/IMG_1858.' | relative_url }}">
 <figcaption>
     Lápide da família da Rainha do Café, Iría Alves Ferreira. O anjo
 fazendo cesta flori, jogando flor no túmulo, significa
@@ -149,7 +149,7 @@ e não está enterrada na lápide que construiu porque se exilou em São
 Paulo após a repercussão do assassinato.
 
 <figure>
-<img src="/assets/imagens/IMG_1859.webp">
+<img src="{{ '/assets/imagens/IMG_1859.' | relative_url }}">
 <figcaption>
     Túmulo de Márcio Frigieri, que faleceu de acidente de moto aos 20 anos
     e se tornou um tipo de milagreiro local, protetor dos
@@ -158,7 +158,7 @@ Paulo após a repercussão do assassinato.
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1860.webp">
+<img src="{{ '/assets/imagens/IMG_1860.' | relative_url }}">
 <figcaption>
     O cidadão que já tem sua lápide preparada, faltando apenas a data da
 morte...
@@ -166,7 +166,7 @@ morte...
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_2053.webp">
+<img src="{{ '/assets/imagens/IMG_2053.' | relative_url }}">
 <figcaption>
     Menino Zezinho, criança benzedeira que se tornou milagreira. Um dos
 túmulos mais visitados. Tem até oração pra
@@ -175,7 +175,7 @@ ele
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_2054.webp">
+<img src="{{ '/assets/imagens/IMG_2054.' | relative_url }}">
 <figcaption>
     Muitas artes funerárias são réplicas criadas a partir de catálogos
     italianos. Anjo apontando pra cima é o anjo da
@@ -184,7 +184,7 @@ ele
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1901.webp">
+<img src="{{ '/assets/imagens/IMG_1901.' | relative_url }}">
 <figcaption>
     Túmulo do Wilson Toni, famoso jornalista de Ribeirão. Seu sepultamento
 lotou o cemitério
@@ -192,7 +192,7 @@ lotou o cemitério
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1864.webp">
+<img src="{{ '/assets/imagens/IMG_1864.' | relative_url }}">
 <figcaption>
     Túmulo das Almas, um túmulo coletivo. Abriga restos mortais de pessoas
     mais humildes
@@ -222,7 +222,7 @@ responsável por trazer milhares de trabalhadores para a cidade e escoar
 toneladas de café foi, aos poucos, se tornando obsoleta.
 
 <figure>
-<img src="/assets/imagens/IMG_1899.webp">
+<img src="{{ '/assets/imagens/IMG_1899.' | relative_url }}">
 <figcaption>
     Menina da Piedade, mais uma milagreira, faleceu com 12 anos de
     idade
@@ -230,7 +230,7 @@ toneladas de café foi, aos poucos, se tornando obsoleta.
 </figure>
 
 <figure>
-<img src="/assets/imagens/VERT_IMG_1902.webp">
+<img src="{{ '/assets/imagens/VERT_IMG_1902.' | relative_url }}">
 <figcaption>
     Lápide de Nicacio de Souza, criador da primeira empresa de serviços
     funerários em Ribeirão Preto, em 1918 Jesus à porta simboliza Cristo
@@ -240,7 +240,7 @@ toneladas de café foi, aos poucos, se tornando obsoleta.
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1865.webp">
+<img src="{{ '/assets/imagens/IMG_1865.' | relative_url }}">
 <figcaption>
     Alfredo Codeixa, vice-prefeito e, posteriormente, prefeito em 1952 e
     1960. Estudou no Guimarães Júnior, primeiro grupo escolar de
@@ -249,7 +249,7 @@ toneladas de café foi, aos poucos, se tornando obsoleta.
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1896.webp">
+<img src="{{ '/assets/imagens/IMG_1896.' | relative_url }}">
 <figcaption>
     Capela. Até aqui foi o primeiro período de expansão do
     cemitério
@@ -257,7 +257,7 @@ toneladas de café foi, aos poucos, se tornando obsoleta.
 </figure>
 
 <figure>
-<img src="/assets/imagens/IMG_1895.webp">
+<img src="{{ '/assets/imagens/IMG_1895.' | relative_url }}">
 <figcaption>
     Túmulo da Sinhá e Quito Junqueira, grandes fazendeiros da cidade e
 conhecidos pela filantropia e o Educandário Quito
@@ -272,7 +272,7 @@ trabalhadores africanos escravizados e imigrantes italianos nas fazendas
 da região.
 
 <figure>
-<img src="/assets/imagens/IMG_1894.webp">
+<img src="{{ '/assets/imagens/IMG_1894.' | relative_url }}">
 <figcaption>
     Cruzeiro, local de vivência de religiosidade coletiva, era também um
     reservatório de água

@@ -29,7 +29,7 @@ racismo.
 > A decisão do Ministro Lewandowski de equiparar os recursos é
 > muito positiva nesse sentido".
 
-{% include grafico_raca.html %}
+{% include graficos/grafico_raca.html %}
 
 A baixa representação fica mais acentuada se levarmos em consideração os
 eleitos: não há nenhum negro na Câmara Municipal de Ribeirão Preto. De
@@ -40,7 +40,7 @@ acordo com o advogado, isso afeta negativamente a comunidade negra no
 > legislativo, como já aconteceu no passado, sem que estejam empenhados em
 > combater as expressões do racismo na cidade.
 
-{% include graf_relacao_cor_cand.html %}
+{% include graficos/graf_relacao_cor_cand.html %}
 
 O Partido Social Liberal, PSL, é o que conta com a maioria de candidatos
 nestas eleições, com 71 concorrentes. Porém, uma pequena parte se
@@ -48,7 +48,7 @@ autodeclararam negros, sendo apenas 4 postulantes. O Partido dos
 Trabalhadores, PT, é o que conta com mais candidatos negros: 10 do total
 de 35 concorrentes.
 
-{% include graf_tab_eleitos.html %}
+{% include graficos/graf_tab_eleitos.html %}
 
 Se reduzirmos para as mulheres, os números são menores ainda. Apenas 3,5
 por cento do total de candidatos são mulheres negras.
@@ -59,7 +59,7 @@ por cento do total de candidatos são mulheres negras.
 > comprometidos a fomentar espaços para negras e negros formularem
 > política para as pessoas negras ocuparem espaços.
 
-{% include graf_mulheres_pretas.html %}
+{% include graficos/graf_mulheres_pretas.html %}
 
 O ativista ainda ressalta o fato de que Ribeirão Preto não teve nenhum
 chefe do executivo negro.

@@ -25,7 +25,7 @@ maiores. Os atendimentos de chamados no 190 de ocorrências classificadas
 como violência doméstica cresceram 44,9% em todo o estado de acordo com
 o FBSP.
 
-{% include rubrica.html %}
+{% include graficos/rubrica.html %}
 
 > Apesar de termos um aumento dos registros, ainda assim nós sabemos que
 > esses registros não correspondem aos números reais. Existe uma diferença
@@ -43,7 +43,7 @@ mas lesão corporal vem em terceiro lugar, com 37 registros. No gráfico
 abaixo é possível ver os 8 crimes mais cometidos contra mulheres em casa
 durante o início da quarentena.
 
-{% include escolaridade.html %}
+{% include graficos/escolaridade.html %}
 
 Em Ribeirão Preto, a maioria dos registros no período da quarentena
 foram feitos por pessoas com o 2º grau ou o superior completo. Para a
@@ -66,4 +66,4 @@ principais violências contra as mulheres.
 > função social da homem e o trabalhar em casa, cuidar do lar, uma função
 > social da mulher.
 
-{% include profissao.html %}
+{% include graficos/profissao.html %}

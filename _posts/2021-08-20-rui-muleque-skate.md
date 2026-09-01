@@ -22,7 +22,7 @@ model o primeiro shape resinado do Brasil. Ainda usa o modelo
 "tubarão", um Lifestyle Rui Muleque Stage IV.
 
 <figure>
-<img src="/assets/imagens/IMG_7154.webp" alt="Rui Muleque e seu Stage IV">
+<img src="{{ '/assets/imagens/IMG_7154.webp' | relative_url }}" alt="Rui Muleque e seu Stage IV">
 <figcaption>
     Rui Muleque e seu Stage IV
 </figcaption>
@@ -90,7 +90,7 @@ para Ribeirão Preto e abriu uma loja voltada para artigos de skate, onde
 passou 9 anos.
 
 <figure>
-<img src="/assets/imagens/IMG_7157.webp" alt="Rui Muleque dando aula">
+<img src="{{ '/assets/imagens/IMG_7157.webp' | relative_url }}" alt="Rui Muleque dando aula">
 <figcaption>
     Rui Muleque e seu Stage IV dando aula
 </figcaption>

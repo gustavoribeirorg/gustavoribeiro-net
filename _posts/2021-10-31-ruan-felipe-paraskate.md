@@ -20,7 +20,7 @@ presente em campeonatos, marcou seu nome na história fazendo parte do
 primeiro pódio do ParaSkate Tour.
 
 <figure>
-<img src="/assets/imagens/624045854_18104939746696047_7028216455345812931_n.webp" alt="Ruan Felipe mandando manobra">
+<img src="{{ '/assets/imagens/624045854_18104939746696047_7028216455345812931_n.webp' | relative_url }}" alt="Ruan Felipe mandando manobra">
 <figcaption>
     Ruan Felipe mandando manobra
 </figcaption>
@@ -49,7 +49,7 @@ conquistar a medalha de bronze, preferiu se poupar e não competir na
 park.
 
 <figure>
-<img src="/assets/imagens/6618026934_18059573084658963_8975446121095334117_n.webp" alt="Ruan Felipe com o troféu">
+<img src="{{ '/assets/imagens/6618026934_18059573084658963_8975446121095334117_n.webp' | relative_url }}" alt="Ruan Felipe com o troféu">
 <figcaption>
     Ruan Felipe com o troféu
 </figcaption>

@@ -7,6 +7,6 @@ tags: [foto]
 ---
 
 <figure>
-  <img src="/assets/fotolog/beija_flor_na_cozinha.webp" alt="Beija flor na cozinha">
-  <figcaption>Beija-flor na cozinha</a></figcaption>
+  <img src="{{ '/assets/imagens/beija_flor_na_cozinha.webp' | relative_url }}" alt="Beija flor na cozinha">
+  <figcaption>Beija-flor na cozinha</figcaption>
 </figure>

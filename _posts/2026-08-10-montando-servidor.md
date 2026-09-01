@@ -14,7 +14,7 @@ Depois da minha [publicação sobre este blog estar hospedado no meu próprio se
 Tirei muitas dúvidas com o Gemini e fiz algumas pesquisas para entender alguns conceitos, mas o processo é bem simples e direto. O Caique, membro do grupo do Manual do Usuário, foi quem me mostrou que era possível (obrigado!).
 
 <figure>
-    <img src="/assets/imagens/servidor-rodando.webp" alt="Servidor rodando">
+    <img src="{{ '/assets/imagens/servidor-rodando.webp' | relative_url }}" alt="Servidor rodando">
         <figcaption>Servidor rodando</figcaption>
 </figure>
 
