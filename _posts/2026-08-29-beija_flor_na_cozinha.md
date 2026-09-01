@@ -8,5 +8,5 @@ tags: [foto]
 
 <figure>
   <img src="/assets/fotolog/beija_flor_na_cozinha.webp" alt="Beija flor na cozinha">
-  <figcaption>Publicado no <a href="/fotolog/">Beija-flor na cozinha</a></figcaption>
+  <figcaption>Beija-flor na cozinha</a></figcaption>
 </figure>
