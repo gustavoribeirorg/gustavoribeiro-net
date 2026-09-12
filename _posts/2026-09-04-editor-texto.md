@@ -3,8 +3,8 @@ title: Fiz meu próprio editor de texto
 date: 2026-09-04 12:50 -0300
 layout: post
 excerpt_separator: <!--more-->
-categories: 
-tags: 
+categories: [Cotidiano]
+tags: [técnologia, programação, homelab]
 ---
 
 Uma das coisas que me impedia de escrever mais por aqui era o processo após ter o texto pronto. A primeira versão do blog era em HTML puro e eu precisava montar a página com o novo post, atualizar o índice e o feed manualmente e depois subir ao servidor. 
