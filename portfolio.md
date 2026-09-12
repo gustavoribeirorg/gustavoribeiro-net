@@ -3,22 +3,16 @@ layout: portfolio
 title: Portfolio
 ---
 
-<div>
-
-  <h1>Portfolio - Gustavo Ribeiro</h1>
-
-  <div class="portfolio__grid">
-
-<iframe src="{{ '/trabalhos/nova-wellness/' | relative_url }}"></iframe>
-<iframe src="{{ '/trabalhos/nova-wellness/' | relative_url }}"></iframe>
-<iframe src="{{ '/trabalhos/nova-wellness/' | relative_url }}"></iframe>
 
 
-  </div>
+# Portfolio - Gustavo Ribeiro
 
-  <p>
-    Desenvolvimento de sites, landing pages e páginas institucionais 
-com foco em performance, responsividade e acessibilidade. Entre em contato através do e-mail <a href="mailto:falecom@gustavoribeiro.net">falecom@gustavoribeiro.net</a> ou pelo <a href="https://wa.me/5516994146750">WhatsApp (16) 99414-6750</a>.
-  </p>
+Desenvolvimento de sites, landing pages e páginas institucionais com foco em performance, responsividade e acessibilidade. Entre em contato através do e-mail [falecom@gustavoribeiro.net](mailto:falecom@gustavoribeiro.net) ou do [WhatsApp (16) 99414-6750](https://wa.me/5516994146750)
 
-</div>
+<center><a href="{{ '/trabalhos/max-nutrition' | relative_url }}">Clique aqui para ver o site completo</a></center>
+<iframe class="iframe" src="{{ '/trabalhos/max-nutrition' | relative_url }}"></iframe>
+<center><a href="{{ '/trabalhos/nova-wellness' | relative_url }}">Clique aqui para ver o site completo</a></center>
+<iframe class="iframe" src="{{ '/trabalhos/nova-wellness' | relative_url }}"></iframe>
+<center><a href="{{ '/trabalhos/perfume-mode' | relative_url }}">Clique aqui para ver o site completo</a></center>
+<iframe class="iframe" src="{{ '/trabalhos/perfume-mode' | relative_url }}"></iframe>
+
