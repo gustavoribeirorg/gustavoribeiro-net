@@ -5,7 +5,7 @@ title: Portfolio
 
 <div>
 
-  <h1>Portfolio - Gustavo Ribeiro</h1>
+# Portfolio - Gustavo Ribeiro</h1>
   
 ## Full Stack Developer
   
@@ -14,7 +14,6 @@ title: Portfolio
   </p>
   
  Meu currículo está disponível [aqui]({{ '/assets/curriculo.pdf' | relative_url }}).
-
   
 ## Projetos pessoais
 
@@ -24,13 +23,15 @@ Consulta de candidatos para as eleições de 2026: [candidatos.gustavoribeiro.ne
 
 ## Sites institucionais
 
-  <div class="portfolio__grid">
-
-<iframe src="{{ '/trabalhos/nova-wellness/' | relative_url }}"></iframe>
-<iframe src="{{ '/trabalhos/nova-wellness/' | relative_url }}"></iframe>
-<iframe src="{{ '/trabalhos/nova-wellness/' | relative_url }}"></iframe>
-
-
-  </div>
-  
-</div>
+<center>
+	<a href="/portfolio/max-nutrition/">Clique aqui para ver o site completo</a>
+</center>
+<iframe class="iframe" src="/portfolio/max-nutrition/"></iframe>
+<center>
+	<a href="/portfolio/nova-wellness/">Clique aqui para ver o site completo</a>
+</center>
+<iframe class="iframe" src="/portfolio/nova-wellness/"></iframe>
+<center>
+	<a href="/portfolio/perfume-mode/">Clique aqui para ver o site completo</a>
+</center>
+<iframe class="iframe" src="/portfolio/perfume-mode/"></iframe>
