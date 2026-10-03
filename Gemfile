@@ -13,4 +13,6 @@ group :jekyll_plugins do
   gem "tzinfo-data"
   gem "jekyll-sitemap"
   gem "kramdown-parser-gfm"
+  gem "jekyll-admin"
+
 end
